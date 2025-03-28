@@ -1,0 +1,13 @@
+{
+    "Domain Category": "Infrastructure as Code (AWS CloudFormation)",
+    "Technology involved": "cloud Formation, AWS VPC, S3, EC2, Lambda",
+    "Custom Prompt": [
+            "Give me a cloud formation template for creating a lambda function in AWS.",
+            "Give me a cloud formation template for creating a secure S3 bucket with bucket versioning enabled.",
+            "Give me a cloud formation template to create a VPC with 10.0.0.0/24 CIDR and with 3 public subnets and one private subnets and one nat gateway.",
+            "Give me a cloud formation template that creates a publicly available linux based ec2 instance that only accepts ssh inbound requests." ,
+            "Give me a cloud formation template that creates a dynamoDB in AWS. Also set the billing mode to Provisioned",
+            "Give me a cloud formation template to create an API Gateway in AWS.Deploy a dev stage with a GET method on /hello path that gives a sample json response.",
+            "Give me a cloud formation template for creating a secure S3 bucket with bucket versioning enabled"
+    ]
+}

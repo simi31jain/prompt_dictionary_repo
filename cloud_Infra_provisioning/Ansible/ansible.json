@@ -1,0 +1,7 @@
+{
+    "Domain Category": "Configuration Management & HA",
+    "Technology involved": "Ansible, Nginx, HAProxy, S3",
+    "Custom Prompt": [
+      "Using Ansible, configure a high-availability web infrastructure with two <NGINX_WEBSERVER_COUNT> Nginx web servers and a load balancer (HAProxy). Ensure that the load balancer distributes traffic between the web servers and that the web servers are configured to serve static files from an attached <S3_BUCKET>."
+    ]
+  }

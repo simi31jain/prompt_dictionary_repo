@@ -1,0 +1,8 @@
+{
+    "Domain Category": "Containerization - Dockerfile Generation",
+    "Technology involved": "Docker, Environment Variables, Package Management, Configuration Files",
+    "Custom Prompt": [
+      "Write a Dockerfile to containerize a app, install dependencies, expose port and configure the app for multiple environments"
+      ]
+}
+

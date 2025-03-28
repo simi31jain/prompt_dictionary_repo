@@ -1,0 +1,51 @@
+[
+    {
+      "Domain Category": "Database Management - User & Privilege Management",
+      "Technology involved": "MySQL, SQL Server, SQL Scripting",
+      "Custom Prompt": [
+        "Write a SQL script that automatically creates a new role/user in MySQL or SQL Server and assigns specific privileges like SELECT, INSERT, or UPDATE to a specified database or table.  The script should accept parameters for the username, password, database name, and the specific privileges to grant."
+      ]
+    },
+    {
+      "Domain Category": "Database Management - User & Privilege Management",
+      "Technology involved": "MySQL, SQL Server, SQL Scripting",
+      "Custom Prompt": [
+        "Write a SQL script to revoke all permissions from a user on a given database or schema across MySQL or SQL Server. The script should accept parameters for the username and the database/schema name."
+      ]
+    },
+    {
+      "Domain Category": "Database Schema Management - Table & View Creation",
+      "Technology involved": "MySQL, SQL Server, SQL Scripting",
+      "Custom Prompt": [
+        "Write a SQL script that creates a table and a view in MySQL or SQL Server, with predefined columns and data types. The script should accept parameters for the table name, view name, column definitions (name, data type, constraints), and the view's SELECT statement."
+      ]
+    },
+    {
+      "Domain Category": "Database Schema Management - Table Existence Check",
+      "Technology involved": "PostgreSQL, SQL Scripting",
+      "Custom Prompt": [
+        "Create a SQL script that checks for the existence of a table in PostgreSQL and creates it only if it doesn’t exist, with a pre-defined schema. The script should accept parameters for the table name and the schema definition (column names, data types, constraints)."
+      ]
+    },
+    {
+      "Domain Category": "Database Schema Migration - Schema Transfer",
+      "Technology involved": "MySQL, SQL Scripting",
+      "Custom Prompt": [
+        "Write a SQL script to automate the migration of all tables, views, and procedures from one schema to another in MySQL.  The script should handle dependencies between objects and properly transfer data where necessary, and should accept parameters for the source schema and the destination schema."
+      ]
+    },
+    {
+      "Domain Category": "Database CRUD Operations - Data Manipulation",
+      "Technology involved": "MySQL, SQL Server, SQL Scripting",
+      "Custom Prompt": [
+        "Implement SQL scripts that perform CRUD operations (Insert, Select, Update, Delete) on a database table in MySQL or SQL Server. Provide separate scripts for each operation. The scripts should accept parameters for the table name, column names, and the values to be inserted, selected, updated, or deleted.  Include error handling and appropriate data validation."
+      ]
+    },
+    {
+      "Domain Category": "Cloud Function Deployment - Terraform Template",
+      "Technology involved": "Terraform, Google Cloud Functions, IAM",
+      "Custom Prompt": [
+        "Provide a Terraform template to create a Google Cloud Function with the following specifications:\n\n- Deploy a function using a user-defined runtime (e.g., Node.js, Python).\n- Allow the function to be triggered by an event (e.g., a Cloud Storage bucket event or HTTP request).\n- Set the function’s IAM role to grant it necessary permissions (e.g., roles/cloudfunctions.invoker).\n- Include customizations for the function name, runtime, trigger type (HTTP, Cloud Storage, etc.), and entry point.  The template should accept variables for these customizations."
+      ]
+    }
+  ]

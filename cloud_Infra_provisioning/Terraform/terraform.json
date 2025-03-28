@@ -1,0 +1,15 @@
+{
+  "Domain Category": "Terraform on AWS - Various AWS Services",
+  "Technology involved": "Terraform, AWS RDS, MySQL, EC2, Lambda, IAM, S3,GCP, API Gateway",
+  "Custom Prompt": [
+    "Give me a Terraform template that provisions an AWS RDS MySQL instance with a security group allowing MySQL traffic only on port <MYSQL_PORT> (e.g., 3306).",
+    "Give me a Terraform template that creates a <LINUX_DISTRIBUTION>-based EC2 instance on AWS with a security group that allows only SSH inbound traffic.",
+    "Give me a Terraform template that creates an AWS Lambda function triggered by an S3 bucket event.",
+    "Give me a Terraform template that creates an AWS IAM user with programmatic access and attaches the <IAM_POLICY> policy (e.g., AmazonS3ReadOnlyAccess).",
+    "Give me a Terraform template that creates an S3 bucket with server-side encryption enabled.",
+    "Provide a Terraform template to create a Google Cloud Storage bucket with the following specifications:Enable versioning for the bucket to maintain multiple versions of objects.Set the bucket location and storage class (e.g., Standard, Nearline, Coldline).Apply server-side encryption using a Google-managed encryption key or a customer-managed encryption key (CMEK).Allow customization of the bucket name, location, and encryption method",
+    "Provide a Terraform template to create a Google Cloud Virtual Private Cloud (VPC) with the following specifications:Create a VPC network with a CIDR block of <10.0.0.0/24>.Set up three public subnets and one private subnet.Configure Cloud NAT for the private subnet to allow outbound internet access.Create appropriate firewall rules to allow public access to the public subnets and restrict access to the private subnet.Ensure the VPC configuration is customizable for region, CIDR blocks, and subnet IP ranges",
+    "Provide a Terraform template to create a Google Cloud Compute Engine instance with the following specifications:Deploy a Linux-based instance (e.g., Ubuntu, CentOS).Create a firewall rule to allow only SSH (port 22) access from a specified IP range.Configure the instance with a public IP address and allow external access via SSH.Allow customization of instance properties such as machine type, disk size, image family, and region.",
+    "Provide a Terraform template to create a Google Cloud API Gateway with the following specifications:Create an API Gateway with a resource path /dev.Set up a GET method for the /dev resource that returns a sample JSON response.Deploy the API to a stage called dev.Allow the API Gateway to be invoked via HTTP, and include IAM roles for access control.Ensure the template allows customization of the API name, resource path, method, and response."
+  ]
+}

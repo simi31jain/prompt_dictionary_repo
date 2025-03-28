@@ -1,0 +1,7 @@
+{
+    "Domain Category": "Containerization - Dockerfile Generation",
+    "Technology involved": "Kubernetes, Environment Variables, Configuration Files",
+    "Custom Prompt": [
+      "Create a Helm chart that deploys a Node.js app on Kubernetes with environment-specific values, scalable replicas, resource limits, health checks, and configurable Docker image tags."
+      ]
+}

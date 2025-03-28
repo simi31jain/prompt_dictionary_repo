@@ -1,0 +1,7 @@
+{
+    "Domain Category": "Container Orchestration - Docker Compose",
+    "Technology involved": "Docker Compose, Docker Networking, Environment Variables, Volume Management, Port Mapping, Node.js, MongoDB",
+    "Custom Prompt":[
+    "Write a docker-compose.yaml to run a multi-container setup for a Node.js app and MongoDB. Configure networking, environment variables, volume persistence, and port mapping."
+    ]
+}
